@@ -15,6 +15,7 @@
   background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
 }
 a {
+  font-style: italic;
   text-decoration: none;
   color: aliceblue;
   font-size: 20px;
@@ -138,7 +139,7 @@ ol > li {
   color: #00667d;
 }
 ul > li {
-  margin-left: 20%;
+  margin-left: 25%;
   font-style: italic;
   font-size: 30px;
   color: #004858;
@@ -237,3 +238,6 @@ div > h1 {
   width: 100px;
 }
 
+.video{
+  transform: translate(57%, 15%);
+}
