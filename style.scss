@@ -1,3 +1,6 @@
+$myColor1: #0095ff;  
+$myColor2: #008baa; 
+
 #bienvenido {
   display: flex;
   justify-content: center;
@@ -27,7 +30,7 @@ a {
 }
 
 a:hover {
-  background-color: #0095ff;
+  background-color: $myColor1;
   color: rgb(255, 255, 255);
 }
 
@@ -57,7 +60,7 @@ img {
   width: 300px;
   height: 300px;
   border-radius: 195px;
-  border: 10px solid #0095ff;
+  border: 10px solid $myColor1;
 }
 
 #contacto {
@@ -67,7 +70,7 @@ img {
   height: 200px;
   width: 200px;
   border-radius: 195px;
-  border: 10px solid #0095ff;
+  border: 10px solid $myColor1;
 }
 
 #numero {
@@ -76,7 +79,7 @@ img {
   margin-top: 200px;
   font-style: italic;
   text-align: left;
-  color: #008baa;
+  color: $myColor2;
 }
 
 #contact {
@@ -92,7 +95,7 @@ img {
   height: 200px;
   width: 200px;
   border-radius: 195px;
-  border: 10px solid #0095ff;
+  border: 10px solid $myColor1;
 }
 
 svg {
@@ -109,7 +112,7 @@ svg {
   margin-top: 440px;
   font-style: italic;
   text-align: right;
-  color: #008baa;
+  color: $myColor2;
   transform: translate(-50%, -50%);
 }
 
@@ -120,7 +123,7 @@ svg {
   margin-top: 770px;
   font-style: italic;
   text-align: left;
-  color: #008baa;
+  color: $myColor2;
 }
 
 #ubiazul {
@@ -130,7 +133,7 @@ svg {
   height: 200px;
   width: 200px;
   border-radius: 195px;
-  border: 10px solid #0095ff;
+  border: 10px solid $myColor1;
 }
 
 #ubi {
@@ -142,7 +145,7 @@ p {
   padding: 35px;
   font-style: italic;
   font-size: 30px;
-  color: #008baa;
+  color: $myColor2;
 }
 
 ol > li {
@@ -160,7 +163,7 @@ ul > li {
 }
 
 div > h1 {
-  color: #008baa;
+  color: $myColor2;
   margin-top: 40px;
   padding: 20px;
   text-align: center;
@@ -170,7 +173,7 @@ div > h1 {
 #text1 {
   font-style: italic;
   font-size: 30px;
-  color: #008baa;
+  color: $myColor2;
   text-align: center;
   position: absolute;
   justify-content: left;
@@ -180,7 +183,7 @@ div > h1 {
 #text2 {
   font-style: italic;
   font-size: 30px;
-  color: #008baa;
+  color: $myColor2;
   text-align: center;
   position: absolute;
   justify-content: left;
@@ -190,7 +193,7 @@ div > h1 {
 #text3 {
   font-style: italic;
   font-size: 30px;
-  color: #008baa;
+  color: $myColor2;
   text-align: center;
   position: absolute;
   justify-content: left;
@@ -297,6 +300,18 @@ user agent stylesheet table {
   text-indent: initial;
   border-spacing: 2px;
 }
-caption{
-  color: #008baa;
+caption {
+  color: $myColor2;
+}
+
+@media screen and (max-width: 640px) {
+  body {
+    background: blue;
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 1280px) {
+  body {
+    background: red;
+  }
 }

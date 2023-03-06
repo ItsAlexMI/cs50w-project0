@@ -3,3 +3,6 @@ body
     background-repeat: no-repeat;
     background-image: linear-gradient(#ffffffe5, #0099ff0d), url("https://mkt-cdn.dynatrace.com/assets/Marketing/section-backgrounds/_1920x1202_crop_center-center_100_line/cxo-background-1920-11229b8f2e.png");
 }
+tr, th, td{
+    color: aliceblue;
+}

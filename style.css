@@ -305,4 +305,15 @@ user agent stylesheet table {
 
 caption {
   color: #008baa;
+}
+
+@media screen and (max-width: 640px) {
+  body {
+    background: blue;
+  }
+}
+@media screen and (min-width: 640px) and (max-width: 1280px) {
+  body {
+    background: red;
+  }
 }/*# sourceMappingURL=style.css.map */
