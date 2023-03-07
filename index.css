@@ -1,5 +1,7 @@
 
 body
 {
+    background-attachment: fixed;
     background-image: linear-gradient(#ffffffc6, #0099ff3f), url("https://static.vecteezy.com/system/resources/previews/004/968/002/original/cute-abstract-modern-background-free-vector.jpg");
 }
+

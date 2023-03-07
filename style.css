@@ -153,14 +153,14 @@ p {
   color: #008baa;
 }
 
-ol > li {
+ol li {
   margin-left: 25%;
   font-style: italic;
   font-size: 30px;
   color: #00667d;
 }
 
-ul > li {
+ul li {
   margin-left: 25%;
   font-style: italic;
   font-size: 30px;
@@ -180,7 +180,6 @@ div h1 {
 }
 
 #text2 {
-  font-style: italic;
   transform: translate(-20%, 350%);
 }
 
@@ -303,11 +302,11 @@ caption {
 
 @media screen and (max-width: 640px) {
   body {
-    background: blue;
+    background: rgb(255, 255, 255);
   }
 }
 @media screen and (min-width: 640px) and (max-width: 1280px) {
   body {
-    background: red;
+    background: rgb(255, 255, 255);
   }
 }/*# sourceMappingURL=style.css.map */
