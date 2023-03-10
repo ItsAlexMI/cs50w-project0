@@ -1,1 +1,9 @@
-# Project-0
+# cs50w-project0
+
+Hola, bienvenidos a mi project #0 del curso de Web50xNI...
+
+Este project trata de mi portafolio virtual en el cual encontraras informacion mia y de como realice este proyecto...
+
+Use las tecnologias bootstraps, html, css, sass para realizarlo, el cual con ayuda de bootstraps y el uso de mediaquery este project tambien es responsivo...
+
+Sin mas que agregar, espero les guste mi portafolio virtual ;)
